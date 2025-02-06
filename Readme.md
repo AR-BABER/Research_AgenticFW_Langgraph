@@ -2,8 +2,10 @@
 
 ## Executive Summary
 This was really really amazing!!! i was overwhelmed with ideas when i first started learning this.
-Embarking on this journey with LangGraph has been a transformative experience, reshaping my understanding of AI system design. Initially, I worked with LangChain's Directed Acyclic Graph (DAG) approach, which was effective for straightforward workflows but limited in handling complex, iterative processes. LangGraph's cyclic architecture offered a new paradigm, enabling the creation of sophisticated, stateful, and agentic systems. This document captures my exploration, from mastering core concepts to implementing advanced features, and reflects on the challenges and triumphs along the way.
-
+Embarking on this journey with LangGraph has been a transformative experience, reshaping my understanding of AI system design. Initially, I have worked with LangChain, which was effective for straightforward workflows but limited in handling complex, iterative processes. LangGraph's cyclic architecture offered a new paradigm, enabling the creation of sophisticated, stateful, and agentic systems. This document captures my exploration, from mastering core concepts to implementing advanced features, and reflects on the challenges and triumphs along the way.
+(please see this video to understand difference between 
+cyclic and Acyclic graph its important
+https://youtu.be/1Yh5S-S6wsI?si=pYSaqrvi7UtRCn2W )
 ## Part 1: From LangChain to LangGraph: A Paradigm Shift
 
 My journey began with LangChain's LCEL, where I quickly realized the constraints of DAGs in building dynamic AI systems. The acyclic nature of DAGs restricted feedback loops and iterative refinement, essential for developing intelligent agents. This realization led me to LangGraph, which supports cyclic structures, allowing for:
